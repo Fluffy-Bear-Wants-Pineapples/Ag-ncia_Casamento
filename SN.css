@@ -1,0 +1,110 @@
+/*== RESET(*) CSS ==*/
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+/*-------------*/
+
+
+/*== VARIÁVEIS(:root) CSS ==*/
+:root {
+	--sombra: #3e4b63;
+	--azul-escuro: #0d152e;
+	--azul-escuro-claro: #1f2542;
+	--azul-claro: #4b5870;
+	--azul-mais-claro: #687c9f;
+	--branco: #FFFFFF;
+	--título: #9ca1ab;
+	--subtítulo: #abb4c2;
+	--texto: #cad0db;
+}
+/*-------------*/
+
+
+html {
+	background-color: var(--azul-claro);
+	font-family: 'CMUSerifRoman';
+	text-shadow: 3px 3px 2px var(--sombra);
+}
+
+
+
+/*== CABEÇALHO ==*/
+header {
+	background-color: var(--azul-escuro);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	box-shadow: 0px 15px 5px var(--sombra);
+}
+
+header img {
+	width: 25%;
+	max-width: 25%;
+	margin: 1.5rem 6rem 1.5rem 3rem;
+}
+
+header a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: var(--texto);
+}
+
+header a:hover {
+	color: var(--branco);
+	font-style: italic;
+}
+/*-------------*/
+
+
+/*== NOSSOS SERVIÇOS ==*/
+.Nossos_Serviços {
+	text-align: center;
+	color: var(--branco);
+	font-size: 2em;
+	font-family: 'AlexBrushRegular';
+	margin: 3rem 0 0 0;
+}
+
+
+/*== DIVISOR ==*/
+.Divisor img {
+	display: block;
+	margin: auto;
+	width: 45%;
+	max-width: 45%;
+}
+/*-------------*/
+
+
+/*== RODAPÉ ==*/
+footer {
+	background-color: var(--azul-escuro);
+	color: var(--branco);
+	font-style: italic;
+	text-shadow: none;
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.One {
+	width: 25%;
+	max-width: 25%;
+}
+
+.Two {
+	margin: 1rem;
+	width: 15%;
+	max-width: 15%;
+}
+
+footer h2, p {
+	line-height: 2rem;
+		font-size: 1em;
+}
+/*-------------*/
